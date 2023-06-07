@@ -14,16 +14,25 @@
         <th scope="col">First</th>
         <th scope="col">Last</th>
         <th scope="col">Handle</th>
+        <th scope="col">Handle</th>
+        <th scope="col">Handle</th>
+
       </tr>
     </thead>
 
     <tbody>
+      @foreach ($movie as $film)
+
       <tr>
-        <th scope="row">1</th>
-        <td>Mark</td>
-        <td>Otto</td>
-        <td>@mdo</td>
+        <th scope="row">{{$film->id}}</th>
+        <td>{{$film->title}}</td>
+        <td>{{$film->original_title}}</td>
+        <td>{{$film->nationality}}</td>
+        <td>{{$film->date}}</td>
+        <td>{{$film->vote}}</td>
+
       </tr>
+      @endforeach
       <tr>
         <th scope="row">2</th>
         <td>Jacob</td>
