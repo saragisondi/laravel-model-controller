@@ -5,17 +5,17 @@
 @section('content')
 <div class="container">
 
-  <h1>Film</h1>
+  <h1 class="fw-bold ">Film</h1>
 
   <table class="table">
     <thead>
       <tr>
-        <th scope="col">#</th>
-        <th scope="col">First</th>
-        <th scope="col">Last</th>
-        <th scope="col">Handle</th>
-        <th scope="col">Handle</th>
-        <th scope="col">Handle</th>
+        <th scope="col"></th>
+        <th scope="col">Titolo</th>
+        <th scope="col">Titolo Originale</th>
+        <th scope="col">Nazionalità</th>
+        <th scope="col">Data</th>
+        <th scope="col">Voto</th>
 
       </tr>
     </thead>

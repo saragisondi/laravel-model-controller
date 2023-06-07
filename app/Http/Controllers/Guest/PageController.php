@@ -9,13 +9,13 @@ use App\Models\Movie;
 class PageController extends Controller
 {
     public function index(){
+      $movie = Movie::all();
 
-        return view('home');
+        return view('home',compact('movie'));
     }
 
     public function movies(){
-      $movie = Movie::all();
       // dd($movie);
-      return view('movies', compact('movie'));
+      return view('movies' );
   }
 }

@@ -1,5 +1,5 @@
-<footer class="text-bg-dark py-5 text-center">
+<footer class="bg-primary-subtle py-5 text-center">
 
-  <p>Made with &hearts; by Sara</p>
+  <p class=" text-primary fw-bold">Made with &hearts; by Sara</p>
 
 </footer>
